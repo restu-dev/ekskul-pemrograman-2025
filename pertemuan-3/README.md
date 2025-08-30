@@ -25,9 +25,11 @@ Isi minimal:
 - Foto (opsional)  
 
 ## Contoh sederhana (HTML + CSS inline):
+```html
 <h1 style="color:red">Andi</h1>
 
 ## Contoh sederhana (HTML + CSS internal):
+```html
 <head>
   <title>Data Diri Andi</title>
   <style>
