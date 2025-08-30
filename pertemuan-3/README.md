@@ -16,6 +16,30 @@
 
 ---
 
+## 🔄 Mekanisme Pull & Push GitHub (Kolaborasi 4 Orang)
+
+## Alur Kerja
+1. **Pull dulu sebelum kerja**
+   ```bash
+   git pull origin main
+   ```
+2. **Update Kode**
+
+3. **Simpan ke staging**
+  ```bash
+   git add .
+  ```
+4. **Buat commit (catatan perubahan)**
+  ```bash
+   git commit -m "menambahkan data diri [Nama]"
+  ```
+5. Push ke GitHub
+  ```bash
+  git push origin main
+  ```
+
+---
+
 ## Studi Kasus: Data Diri
 Setiap siswa membuat file HTML berisi biodata pribadi.  
 Isi minimal:
