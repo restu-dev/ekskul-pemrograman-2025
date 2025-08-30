@@ -1,5 +1,5 @@
 
-# 📅 Pertemuan 3 – 29 Agustus 2025  
+# 📅 Pertemuan 3 – 10 September 2025  
 
 ## 📘 Praktikum GitHub dengan Studi Kasus Data Diri
 
