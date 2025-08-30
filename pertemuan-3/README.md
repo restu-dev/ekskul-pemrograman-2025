@@ -27,6 +27,7 @@ Isi minimal:
 ## Contoh sederhana (HTML + CSS inline):
 ```html
 <h1 style="color:red">Andi</h1>
+```
 
 ## Contoh sederhana (HTML + CSS internal):
 ```html
@@ -38,12 +39,15 @@ Isi minimal:
     p { font-size: 14px; }
   </style>
 </head>
+```
 
 ## Contoh sederhana (HTML + CSS External):
 - style.css
+```css
 body { font-family: Arial; background: #f4f4f4; }
 h1 { color: blue; }
 p { font-size: 14px; }
+```
 
 
 ## ID → (unik, hanya untuk 1 elemen)
