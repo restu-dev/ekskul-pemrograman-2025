@@ -51,10 +51,14 @@ p { font-size: 14px; }
 
 
 ## ID → (unik, hanya untuk 1 elemen)
+```css
 - <p id="judul">Halo Dunia</p>
+```
 - #judul { color: green; font-weight: bold; }
 
 ## Class → . (bisa dipakai banyak elemen)
+```css
 - <p class="merah">Teks ini merah</p>
+```
 - .merah { color: red; }
 
