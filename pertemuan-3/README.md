@@ -20,9 +20,9 @@
 
 ## Alur Kerja
 1. **Pull dulu sebelum kerja**
-   ```bash
+  ```bash
    git pull origin main
-   ```
+  ```
 2. **Update Kode**
 
 3. **Simpan ke staging**
