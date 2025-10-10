@@ -136,7 +136,7 @@ Sebuah file HTML biasanya punya bentuk seperti ini:
 ## 🪄 Kesimpulan Singkat
  - HTML = bahasa untuk membuat struktur halaman web.
  - Disusun dari tag yang punya fungsi masing-masing.
- - Setiap tag punya pembuka dan penutup, misalnya ```html <p> dan </p>```
+ - Setiap tag punya pembuka dan penutup, misalnya ```<p> dan </p>```
  - Browser membaca HTML dari atas ke bawah untuk menampilkan konten di layar.
 
 ---
