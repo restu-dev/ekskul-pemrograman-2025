@@ -101,7 +101,7 @@ Sebuah file HTML biasanya punya bentuk seperti ini:
 ```html
 <h1>Halo Dunia</h1>
 ```
-#### Menampilkan teks besar sebagai judul. Ada dari ```html <h1> sampai <h6>```
+#### Menampilkan teks besar sebagai judul. Ada dari ```<h1> sampai <h6>```
 
 ### Paragraf
 ```html
@@ -261,8 +261,7 @@ Isi minimal:
 </head>
 ```
 
-## Contoh sederhana (HTML + CSS External):
-- style.css
+## Contoh sederhana (HTML + CSS External): style.css
 ```css
 body { font-family: Arial; background: #f4f4f4; }
 h1 { color: blue; }
