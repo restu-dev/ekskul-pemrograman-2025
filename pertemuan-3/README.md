@@ -70,48 +70,68 @@ Sebuah file HTML biasanya punya bentuk seperti ini:
 ```
 
 ## 📖 Penjelasan Baris per Baris
+```html 
 <!DOCTYPE html>
-Memberi tahu browser bahwa ini adalah dokumen HTML versi terbaru (HTML5).
+```
+#### Memberi tahu browser bahwa ini adalah dokumen HTML versi terbaru (HTML5).
 
+```html 
 <html> ... </html>
-Tag utama yang membungkus seluruh isi halaman web.
+```
+#### Tag utama yang membungkus seluruh isi halaman web.
 
+```html
 <head> ... </head>
-Bagian “kepala” — berisi informasi tentang halaman (judul, CSS, meta data, link). Tidak tampil langsung di layar.
+```
+#### Bagian “kepala” — berisi informasi tentang halaman (judul, CSS, meta data, link). Tidak tampil langsung di layar.
 
+```html
 <title> ... </title>
-Menentukan judul halaman (yang muncul di tab browser).
+```
+#### Menentukan judul halaman (yang muncul di tab browser).
 
+```html
 <body> ... </body>
-Bagian “tubuh” — berisi semua konten yang terlihat oleh pengguna: teks, gambar, tombol, tabel, dsb.
+```
+#### Bagian “tubuh” — berisi semua konten yang terlihat oleh pengguna: teks, gambar, tombol, tabel, dsb.
 
 ## 🧠 Contoh Elemen Dasar di <body>
-Judul
+
+### Judul
 ```html
 <h1>Halo Dunia</h1>
 ```
+#### Menampilkan teks besar sebagai judul. Ada dari <h1> sampai <h6>.
 
-Menampilkan teks besar sebagai judul. Ada dari <h1> sampai <h6>.
-
-Paragraf
+### Paragraf
+```html
 <p>Ini paragraf.</p>
-Menampilkan teks paragraf.
+```
+#### Menampilkan teks paragraf.
 
-Gambar
+### Gambar
+```html
 <img src="gambar.jpg" alt="Deskripsi">
-Menampilkan gambar.
+```
+#### Menampilkan gambar.
 
-Tautan
+### Tautan
+```html
 <a href="https://google.com">Pergi ke Google</a>
-Membuat link.
+```
+#### Membuat link.
 
-Daftar
+### Daftar
+```html
 <ul><li>Item 1</li><li>Item 2</li></ul>
-Membuat daftar (bulleted list).
+```
+#### Membuat daftar (bulleted list).
 
-Tombol
+### Tombol
+```html
 <button>Klik Saya</button>
-Menampilkan tombol yang bisa diklik.
+```
+#### Menampilkan tombol yang bisa diklik.
 
 ## 🪄 Kesimpulan Singkat
  - HTML = bahasa untuk membuat struktur halaman web.
@@ -202,7 +222,7 @@ Mengatur gaya semua elemen dengan class itu:
   font-size: 18px;
 }
 ```
-# 🔹 Di CSS, class ditulis dengan titik . (bukan #).
+### 🔹 Di CSS, class ditulis dengan titik . (bukan #).
 
 ## ⚖️ Perbandingan Singkat
 
