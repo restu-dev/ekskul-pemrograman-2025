@@ -87,7 +87,10 @@ Bagian “tubuh” — berisi semua konten yang terlihat oleh pengguna: teks, ga
 
 ## 🧠 Contoh Elemen Dasar di <body>
 Judul
+```html
 <h1>Halo Dunia</h1>
+```
+
 Menampilkan teks besar sebagai judul. Ada dari <h1> sampai <h6>.
 
 Paragraf
@@ -199,7 +202,7 @@ Mengatur gaya semua elemen dengan class itu:
   font-size: 18px;
 }
 ```
-* 🔹 Di CSS, class ditulis dengan titik . (bukan #).
+# 🔹 Di CSS, class ditulis dengan titik . (bukan #).
 
 ## ⚖️ Perbandingan Singkat
 
