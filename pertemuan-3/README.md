@@ -95,13 +95,13 @@ Sebuah file HTML biasanya punya bentuk seperti ini:
 ```
 #### Bagian “tubuh” — berisi semua konten yang terlihat oleh pengguna: teks, gambar, tombol, tabel, dsb.
 
-## 🧠 Contoh Elemen Dasar di <body>
+## 🧠 Contoh Elemen Dasar di ```html <body> ```
 
 ### Judul
 ```html
 <h1>Halo Dunia</h1>
 ```
-#### Menampilkan teks besar sebagai judul. Ada dari <h1> sampai <h6>.
+#### Menampilkan teks besar sebagai judul. Ada dari ```html <h1> sampai <h6>```
 
 ### Paragraf
 ```html
