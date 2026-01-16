@@ -282,3 +282,27 @@ p { font-size: 14px; }
 ```
 - .merah { color: red; }
 
+## Cara Pemanggilan CSS
+
+- 1. Inline CSS
+```css
+<p style="color: red;">Teks Merah</p>
+```
+
+- 2. Internal CSS
+```css
+<head>
+  <style>
+    p {
+      color: blue;
+    }
+  </style>
+</head>
+```
+
+- 3. External CSS
+```css
+<link rel="stylesheet" href="style.css">
+```
+
+
