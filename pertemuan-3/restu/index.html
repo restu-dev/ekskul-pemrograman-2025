@@ -1,24 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Diri Restu</title>
 
+    <link rel="stylesheet" href="/pertemuan-3/restu/style.css">
+
     <style>
-        #nama{
-            color: blue;
+        /* Internal CSS */
+        #internal_css {
+            color: rgb(255, 230, 0);
         }
 
-        .nama_p{
-            color: red;
+        #ini_id {
+            color: rgb(255, 38, 0);
+        }
+
+        .ini_class {
+            color: rgb(111, 107, 107);
         }
     </style>
 </head>
+
 <body>
-    <h1 id="nama">Restu winaldi W</h1>
-    <p class="nama_p">1. nama</p>
-    <p class="nama_p">2. nama</p>
-    <p class="nama_p">3. nama</p>
+
+    <!-- Perbedaan class & id -->
+    <h1 id="ini_id">Restu winaldi W</h1>
+
+    <p class="ini_class">Alamat : Boyolali</p>
+    <p class="ini_class">Umur : 30 TH</p>
+
+    <!-- Inline CSS -->
+    <h3 style="color: rgb(75, 154, 66);"> Inline CSS</h3>
+
+    <!-- Internal CSS -->
+    <h3 id="internal_css">Internal CSS</h3>
+
+    <!-- External CSS -->
+    <h3 id="external_css">External CSS</h3>
+
+    <!-- latihan box model : Tujuan: Memahami margin, padding, border. -->
+    <div class="box">
+        Kotak CSS
+    </div>
+
 </body>
+
 </html>
