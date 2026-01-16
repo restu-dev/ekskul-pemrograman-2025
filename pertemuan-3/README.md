@@ -284,12 +284,12 @@ p { font-size: 14px; }
 
 ## Cara Pemanggilan CSS
 
-- 1. Inline CSS
+- Inline CSS
 ```css
 <p style="color: red;">Teks Merah</p>
 ```
 
-- 2. Internal CSS
+- Internal CSS
 ```css
 <head>
   <style>
@@ -300,7 +300,7 @@ p { font-size: 14px; }
 </head>
 ```
 
-- 3. External CSS
+- External CSS
 ```css
 <link rel="stylesheet" href="style.css">
 ```
