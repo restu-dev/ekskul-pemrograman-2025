@@ -1,21 +1,15 @@
 
 # Pertemuan
-## 📅 Pertemuan 3 – 10 Oktober 2025  
-## 📅 Pertemuan 4 – 13 Oktober 2025 
-## 📅 Pertemuan 5 – 23 January 2026
+## 📅 Pertemuan 3 – 10 Oktober 2025 : git hub dasar 1
+## 📅 Pertemuan 4 – 13 Oktober 2025 : git hub dasar 2
+## 📅 Pertemuan 5 – 23 January 2026 : Html & css dasar 1
+## 📅 Pertemuan 6 – 30 January 2026 : Html & css dasar 2
 
 ## 📘 Praktikum GitHub dengan Studi Kasus Data Diri
 
-## Review Sebelumnya
-- **Materi 1** → pengenalan pemrograman, algoritma, frontend.  
-- **Materi 2** → pengenalan GitHub: repo, file, codespaces, commit, push.  
-
 ---
 
-## Fokus Materi 3
-- Belajar **kolaborasi 1 repo dengan 4 orang**.  
-- Studi kasus: **membuat halaman Data Diri sederhana** dengan HTML + CSS.  
-- Melatih alur kerja: `pull → add → commit → push`.
+[Modul Materi](pertemuan-3/admin) → GitHub Kolaborasi + HTML & CSS Data Diri  
 
 ---
 

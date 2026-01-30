@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Ringkasan Materi Form HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 30px;
+            background: #f7f7f7;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        code {
+            background: #eee;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+        pre {
+            background: #272822;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Ringkasan Materi: Form HTML</h1>
+<p><strong>Tujuan:</strong> Santri memahami cara membuat form dan mengirim data.</p>
+
+<div class="box">
+    <h2>1. Apa itu Form HTML?</h2>
+    <p>
+        Form HTML digunakan untuk <strong>mengambil input dari pengguna</strong>,
+        seperti nama, email, pesan, dan lainnya.
+    </p>
+</div>
+
+<div class="box">
+    <h2>2. Struktur Dasar Form</h2>
+<pre>
+&lt;form action="tujuan_data" method="post"&gt;
+    &lt;input type="text" name="nama"&gt;
+    &lt;button type="submit"&gt;Kirim&lt;/button&gt;
+&lt;/form&gt;
+</pre>
+    <p>
+        <code>action</code> → tempat data dikirim<br>
+        <code>method</code> → cara kirim data (GET / POST)
+    </p>
+</div>
+
+<div class="box">
+    <h2>3. Jenis Input Form</h2>
+    <ul>
+        <li><code>text</code> → teks biasa</li>
+        <li><code>email</code> → email</li>
+        <li><code>number</code> → angka</li>
+        <li><code>radio</code> → pilih satu</li>
+        <li><code>checkbox</code> → pilih banyak</li>
+        <li><code>textarea</code> → pesan panjang</li>
+    </ul>
+</div>
+
+<div class="box">
+    <h2>4. Atribut Penting</h2>
+    <ul>
+        <li><code>name</code> → kunci data (WAJIB)</li>
+        <li><code>required</code> → wajib diisi</li>
+        <li><code>placeholder</code> → contoh isian</li>
+    </ul>
+</div>
+
+<div class="box">
+    <h2>5. Contoh Form Kontak</h2>
+<pre>
+&lt;form action="#" method="post"&gt;
+    &lt;input type="text" name="nama" placeholder="Nama"&gt;
+    &lt;input type="email" name="email" placeholder="Email"&gt;
+    &lt;textarea name="pesan"&gt;&lt;/textarea&gt;
+    &lt;button type="submit"&gt;Kirim&lt;/button&gt;
+&lt;/form&gt;
+</pre>
+</div>
+
+<div class="box">
+    <h2>6. Alur Pengiriman Data</h2>
+    <ol>
+        <li>Pengguna isi form</li>
+        <li>Klik tombol kirim</li>
+        <li>Data dikirim ke <code>action</code></li>
+        <li>Data diproses (PHP / Apps Script)</li>
+        <li>Data disimpan (Database / Spreadsheet)</li>
+    </ol>
+</div>
+
+<div class="box">
+    <h2>7. Contoh Tujuan Data</h2>
+    <ul>
+        <li>Backend PHP → <code>proses.php</code></li>
+        <li>Google Spreadsheet → Google Apps Script</li>
+    </ul><br>
+    <p>End Poin / tujuan data dikirim</p>
+    <b>https://script.google.com/macros/s/AKfycbxfaC9anDvAduQTtYYcw4DRFc8-W6OHUOoE7V2c_690oikqUgi2By1s5ivz4dW7ZWu-/exec</li>
+</div>
+
+<div class="box">
+    <h2>8. Kesimpulan</h2>
+    <p>
+        Form HTML adalah <strong>jembatan antara pengguna dan data</strong>.
+        Dengan form, kita bisa membuat website menjadi interaktif dan bermanfaat.
+    </p>
+</div>
+
+
+
+</body>
+</html>
