@@ -9,7 +9,7 @@
 
 ---
 
-[Modul Materi](pertemuan-3/admin) → GitHub Kolaborasi + HTML & CSS Data Diri  
+[Modul Materi](pertemuan-3/admin/) → GitHub Kolaborasi + HTML & CSS Data Diri  
 
 ---
 
