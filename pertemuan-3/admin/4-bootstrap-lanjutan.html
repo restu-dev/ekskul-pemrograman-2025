@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>4. Bootstrap Lanjutan & Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .kotak {
+            border: 2px dashed #6c757d;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body class="p-4">
+
+    <!-- JUDUL -->
+    <h1 class="text-center text-primary">
+        Pertemuan 2: Bootstrap Lanjutan & Portfolio Diri
+    </h1>
+    <p class="text-center">
+        Ekskul Pemrograman – Praktek Website Multi Halaman
+    </p>
+
+    <hr>
+
+    <!-- TUJUAN -->
+    <h2>🎯 Tujuan Pembelajaran</h2>
+    <ul>
+        <li>Memahami layout Bootstrap</li>
+        <li>Menggunakan beberapa komponen Bootstrap</li>
+        <li>Memahami konsep pindah halaman</li>
+        <li>Membuat portfolio diri sederhana</li>
+    </ul>
+
+    <hr>
+
+    <!-- LAYOUT -->
+    <h2>1️⃣ Layout Bootstrap</h2>
+    <p>
+        Bootstrap menggunakan sistem grid:
+        <strong>container → row → col</strong>
+    </p>
+
+    <div class="container bg-light p-3">
+        <div class="row">
+            <div class="col-md-6 kotak text-center">Kolom Kiri</div>
+            <div class="col-md-6 kotak text-center">Kolom Kanan</div>
+        </div>
+    </div>
+
+    <p class="mt-2">
+        <strong>Catatan:</strong>
+        Pada layar kecil (HP), kolom akan otomatis turun ke bawah.
+    </p>
+
+    <hr>
+
+    <!-- KOMPONEN -->
+    <h2>2️⃣ Komponen Bootstrap yang Digunakan</h2>
+
+    <h5>a. Navbar</h5>
+    <div class="kotak">
+        Navbar digunakan untuk navigasi antar halaman.
+    </div>
+
+    <h5>b. Card</h5>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Contoh Card</h5>
+            <p class="card-text">Digunakan untuk skill atau project</p>
+            <a href="#" class="btn btn-primary btn-sm">Detail</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <h5>c. Button</h5>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-danger">Danger</button>
+
+    <hr>
+
+    <h5>d. Form</h5>
+    <div class="kotak">
+        <input type="text" class="form-control mb-2" placeholder="Nama">
+        <input type="email" class="form-control mb-2" placeholder="Email">
+        <textarea class="form-control" rows="3" placeholder="Pesan"></textarea>
+    </div>
+
+    <hr>
+
+    <!-- MULTI HALAMAN -->
+    <h2>3️⃣ Konsep Pindah Halaman</h2>
+
+    <p>
+        Website tidak selalu 1 halaman.
+        Kita bisa berpindah halaman menggunakan tag <code>&lt;a&gt;</code>.
+    </p>
+
+    <div class="kotak">
+        <code>&lt;a href="contact.html"&gt;Hubungi Saya&lt;/a&gt;</code>
+    </div>
+
+    <p>
+        Struktur file:
+    </p>
+
+    <pre>
+index.html
+contact.html
+    </pre>
+
+    <p>
+        <strong>Navbar harus sama</strong> di setiap halaman agar konsisten.
+    </p>
+
+    <hr>
+
+    <!-- PORTFOLIO -->
+    <h2>4️⃣ Struktur Portfolio Diri</h2>
+
+    <ul>
+        <li>Halaman Profil
+            <ul>
+                <li>Foto</li>
+                <li>Nama</li>
+                <li>Deskripsi</li>
+                <li>Button ke Hubungi Saya</li>
+            </ul>
+        </li>
+        <li>Halaman Hubungi Saya
+            <ul>
+                <li>Google Maps</li>
+                <li>Form Kontak</li>
+            </ul>
+        </li>
+    </ul>
+
+    <hr>
+
+    <!-- TUGAS -->
+    <h2>📌 Tugas Pertemuan 2</h2>
+    <ul>
+        <li>Buat halaman <strong>Profil</strong></li>
+        <li>Buat halaman <strong>Hubungi Saya</strong></li>
+        <li>Gunakan navbar Bootstrap</li>
+        <li>Gunakan card untuk skill / project</li>
+        <li>Pastikan bisa pindah halaman</li>
+    </ul>
+
+    <hr>
+
+    <p class="text-center fw-bold text-success">
+        ✨ Fokus paham konsep, bukan menghafal class ✨
+    </p>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

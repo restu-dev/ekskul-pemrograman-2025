@@ -1,57 +1,121 @@
+# 📘 MODUL RESMI EKSKUL PEMROGRAMAN WEB
 
-# Pertemuan
-## 📅 Pertemuan 3 – 10 Oktober 2025 : git hub dasar 1
-## 📅 Pertemuan 4 – 13 Oktober 2025 : git hub dasar 2
-## 📅 Pertemuan 5 – 23 January 2026 : Html & css dasar 1
-## 📅 Pertemuan 6 – 30 January 2026 : Html & css dasar 2
-
-## 📘 Praktikum GitHub dengan Studi Kasus Data Diri
+## HTML, CSS & Bootstrap Dasar
 
 ---
 
-[Modul Materi](pertemuan-3/admin/) → GitHub Kolaborasi + HTML & CSS Data Diri  
+## 🏫 Identitas Kegiatan
+
+* **Nama Kegiatan** : Ekskul Pemrograman Web
+* **Sasaran** : Santri Ekskul Pemrograman
+* **Fokus** : Dasar Web & Portfolio Diri
+* **Output Akhir** : Website portfolio pribadi (multi halaman)
+
+---
+
+## 📅 Jadwal Pertemuan
+
+* **Pertemuan 3 – 10 Oktober 2025**
+  GitHub Dasar 1
+
+* **Pertemuan 4 – 13 Oktober 2025**
+  GitHub Dasar 2
+
+* **Pertemuan 5 – 23 Januari 2026**
+  HTML & CSS Dasar 1
+
+* **Pertemuan 6 – 30 Januari 2026**
+  HTML & CSS Dasar 2
+
+* **Pertemuan 7 – 06 Februari 2026**
+  CSS & Bootstrap Dasar
+
+---
+
+## 🎯 Tujuan Pembelajaran
+
+Setelah mengikuti ekskul ini, santri diharapkan mampu:
+
+* Memahami dasar HTML & CSS
+* Menggunakan GitHub untuk kolaborasi
+* Menggunakan Bootstrap untuk desain web
+* Membuat website portfolio pribadi
+* Memahami konsep multi halaman website
+
+---
+
+## 📘 Proyek Akhir Ekskul
+
+### 🎓 Portfolio Diri Santri
+
+Setiap santri membuat **website portfolio pribadi** menggunakan:
+
+* HTML
+* CSS
+* Bootstrap
+* GitHub
+
+Isi minimal:
+
+* Profil diri
+* Skill / minat
+* Halaman hubungi saya
+
+---
+
+## 🔗 Repository & Modul
+
+**Modul Materi**
+GitHub Kolaborasi + HTML & CSS Data Diri
 
 ---
 
 ## 🔄 Mekanisme Pull & Push GitHub (Kolaborasi 4 Orang)
 
-## Alur Kerja
-1. **Pull dulu sebelum kerja**
-  ```bash
-   git pull origin main
-  ```
-2. **Update Kode**
+### Alur Kerja Standar
+
+1. **Pull sebelum mulai kerja**
+
+```bash
+git pull origin main
+```
+
+2. **Edit / Update kode**
 
 3. **Simpan ke staging**
-  ```bash
-   git add .
-  ```
-4. **Buat commit (catatan perubahan)**
-  ```bash
-   git commit -m "menambahkan data diri [Nama]"
-  ```
-5. Push ke GitHub
-  ```bash
-  git push origin main
-  ```
+
+```bash
+git add .
+```
+
+4. **Commit perubahan**
+
+```bash
+git commit -m "menambahkan data diri [Nama]"
+```
+
+5. **Push ke GitHub**
+
+```bash
+git push origin main
+```
 
 ---
 
 ## 🧩 Apa itu HTML?
 
-HTML (HyperText Markup Language) adalah bahasa dasar untuk membuat halaman web.
-Bisa dibilang, HTML adalah kerangka (tulang) dari sebuah situs web — tempat kamu menulis teks, gambar, link, tombol, video, dan lainnya agar bisa tampil di browser (seperti Chrome, Firefox, Safari, dll).
+HTML (*HyperText Markup Language*) adalah bahasa dasar untuk membuat halaman web.
+HTML berfungsi sebagai **kerangka utama** website.
 
-Bayangkan seperti membangun rumah:
+Perumpamaan:
 
-HTML = rangka dan dinding rumah 🧱
+* HTML = rangka rumah 🧱
+* CSS = cat & dekorasi 🎨
+* JavaScript = listrik & tombol ⚡
 
-CSS = cat dan dekorasinya 🎨
-
-JavaScript = listrik dan tombol-tombolnya ⚡
+---
 
 ## 🧱 Struktur Dasar HTML
-Sebuah file HTML biasanya punya bentuk seperti ini:
 
 ```html
 <!DOCTYPE html>
@@ -61,89 +125,69 @@ Sebuah file HTML biasanya punya bentuk seperti ini:
   </head>
   <body>
     <h1>Halo Dunia!</h1>
-    <p>Ini adalah paragraf pertama saya.</p>
+    <p>Ini paragraf pertama saya.</p>
   </body>
 </html>
 ```
 
-## 📖 Penjelasan Baris per Baris
-```html 
-<!DOCTYPE html>
-```
-#### Memberi tahu browser bahwa ini adalah dokumen HTML versi terbaru (HTML5).
+---
 
-```html 
-<html> ... </html>
-```
-#### Tag utama yang membungkus seluruh isi halaman web.
+## 📖 Penjelasan Struktur HTML
 
-```html
-<head> ... </head>
-```
-#### Bagian “kepala” — berisi informasi tentang halaman (judul, CSS, meta data, link). Tidak tampil langsung di layar.
+* `<!DOCTYPE html>` → Penanda HTML5
+* `<html>` → Pembungkus seluruh halaman
+* `<head>` → Informasi halaman (judul, CSS)
+* `<title>` → Judul tab browser
+* `<body>` → Konten yang tampil di layar
 
-```html
-<title> ... </title>
-```
-#### Menentukan judul halaman (yang muncul di tab browser).
+---
 
-```html
-<body> ... </body>
-```
-#### Bagian “tubuh” — berisi semua konten yang terlihat oleh pengguna: teks, gambar, tombol, tabel, dsb.
-
-## 🧠 Contoh Elemen Dasar di ```html <body> ```
+## 🧠 Elemen Dasar HTML
 
 ### Judul
+
 ```html
-<h1>Halo Dunia</h1>
+<h1>Judul</h1>
 ```
-#### Menampilkan teks besar sebagai judul. Ada dari ```<h1> sampai <h6>```
 
 ### Paragraf
+
 ```html
-<p>Ini paragraf.</p>
+<p>Ini paragraf</p>
 ```
-#### Menampilkan teks paragraf.
 
 ### Gambar
-```html
-<img src="gambar.jpg" alt="Deskripsi">
-```
-#### Menampilkan gambar.
 
-### Tautan
 ```html
-<a href="https://google.com">Pergi ke Google</a>
+<img src="gambar.jpg" alt="deskripsi">
 ```
-#### Membuat link.
 
-### Daftar
+### Link
+
 ```html
-<ul><li>Item 1</li><li>Item 2</li></ul>
+<a href="https://google.com">Google</a>
 ```
-#### Membuat daftar (bulleted list).
 
-### Tombol
+### List
+
+```html
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+```
+
+### Button
+
 ```html
 <button>Klik Saya</button>
 ```
-#### Menampilkan tombol yang bisa diklik.
-
-## 🪄 Kesimpulan Singkat
- - HTML = bahasa untuk membuat struktur halaman web.
- - Disusun dari tag yang punya fungsi masing-masing.
- - Setiap tag punya pembuka dan penutup, misalnya ```<p> dan </p>```
- - Browser membaca HTML dari atas ke bawah untuk menampilkan konten di layar.
 
 ---
 
 ## 🎨 Apa itu CSS?
-CSS (Cascading Style Sheets) adalah bahasa untuk mengatur tampilan (desain) dari halaman web.
-Kalau HTML adalah kerangka rumah, maka CSS adalah cat, dekorasi, dan tata letak rumah itu.
 
-## 🧩 Struktur Dasar CSS
-CSS menggunakan “selector” untuk memilih elemen HTML, lalu memberi “property” dan “value” untuk mengubah tampilannya.
+CSS (*Cascading Style Sheets*) digunakan untuk **mengatur tampilan** HTML.
 
 ```css
 p {
@@ -152,152 +196,166 @@ p {
 }
 ```
 
-Artinya:
-Semua elemen <p> (paragraf) warnanya biru dan ukuran teksnya 16px.
+---
 
-## 💡 Contoh Properti CSS yang Sering Dipakai
-| Properti           | Fungsi                | Contoh                         |
-| :----------------- | :-------------------- | :----------------------------- |
-| `color`            | warna teks            | `color: red;`                  |
-| `background-color` | warna latar           | `background-color: yellow;`    |
-| `font-size`        | ukuran huruf          | `font-size: 20px;`             |
-| `text-align`       | posisi teks           | `text-align: center;`          |
-| `margin`           | jarak luar elemen     | `margin: 10px;`                |
-| `padding`          | jarak dalam elemen    | `padding: 5px;`                |
-| `border`           | garis tepi            | `border: 1px solid black;`     |
-| `width` & `height` | lebar & tinggi elemen | `width: 200px; height: 100px;` |
+## 🧩 Class & ID
 
-## 🪄 Kesimpulan
-  - CSS = pengatur gaya & tampilan web.
-  - Bisa ditulis di inline, internal, atau external file.
-  - Menggunakan selector → property → value.
-  - Membuat website jadi indah, rapi, dan profesional.
+### ID (unik)
+
+```html
+<h1 id="judul">Halo Dunia</h1>
+```
+
+```css
+#judul { color: blue; }
+```
+
+### Class (bisa banyak)
+
+```html
+<p class="merah">Teks Merah</p>
+```
+
+```css
+.merah { color: red; }
+```
 
 ---
 
-## 🧩 Classs dan Id
+## 🧵 Jenis CSS
 
-## 🎯 1. Apa itu id?
-
-id adalah identitas unik dari satu elemen HTML.
-Artinya, setiap halaman hanya boleh punya satu elemen dengan id yang sama.
+### Inline CSS
 
 ```html
-<h1 id="judul">Halo Dunia!</h1>
+<p style="color:red">Merah</p>
 ```
 
-## ➕ Digunakan untuk:
-
-Menandai elemen tertentu supaya bisa diubah lewat CSS atau JavaScript.
-Misalnya kamu mau ubah warna teks dengan CSS:
+### Internal CSS
 
 ```html
-#judul {
-  color: blue;
-  text-align: center;
-}
+<style>
+  p { color: blue; }
+</style>
 ```
 
-## 👥 2. Apa itu class?
-class digunakan untuk memberi nama pada sekelompok elemen yang gayanya sama.
-Berbeda dengan id, satu halaman boleh punya banyak elemen dengan class yang sama.
-
-Contoh:
+### External CSS
 
 ```html
-<p class="teks-biru">Paragraf 1</p>
-<p class="teks-biru">Paragraf 2</p>
-<p class="teks-biru">Paragraf 3</p>
-```
-
-## ➕ Digunakan untuk:
-Mengatur gaya semua elemen dengan class itu:
-
-```css
-.teks-biru {
-  color: blue;
-  font-size: 18px;
-}
-```
-### 🔹 Di CSS, class ditulis dengan titik . (bukan #).
-
-## ⚖️ Perbandingan Singkat
-
-| Perbedaan        | `id`                           | `class`                           |
-| :--------------- | :----------------------------- | :-------------------------------- |
-| Sifat            | Unik (satu halaman hanya satu) | Bisa dipakai berkali-kali         |
-| Penanda di CSS   | `#id`                          | `.class`                          |
-| Contoh HTML      | `<div id="header"></div>`      | `<div class="menu"></div>`        |
-| Contoh CSS       | `#header { ... }`              | `.menu { ... }`                   |
-| Penggunaan di JS | `getElementById("id")`         | `getElementsByClassName("class")` |
-
----
-
-## Studi Kasus: Data Diri
-Setiap siswa membuat file HTML berisi biodata pribadi.  
-Isi minimal:
-- Nama  
-- Kelas  
-- Hobi  
-- Foto (opsional)  
-
-## Contoh sederhana (HTML + CSS inline):
-```html
-<h1 style="color:red">Andi</h1>
-```
-
-## Contoh sederhana (HTML + CSS internal):
-```html
-<head>
-  <title>Data Diri Andi</title>
-  <style>
-    body { font-family: Arial; background: #f4f4f4; padding: 20px; }
-    h1 { color: blue; }
-    p { font-size: 14px; }
-  </style>
-</head>
-```
-
-## Contoh sederhana (HTML + CSS External): style.css
-```css
-body { font-family: Arial; background: #f4f4f4; }
-h1 { color: blue; }
-p { font-size: 14px; }
-```
-
-## ID → (unik, hanya untuk 1 elemen)
-```html
-<p id="judul">Halo Dunia</p>
-```
-- #judul { color: green; font-weight: bold; }
-
-## Class → . (bisa dipakai banyak elemen)
-```html
-<p class="merah">Teks ini merah</p>
-```
-- .merah { color: red; }
-
-## Cara Pemanggilan CSS
-
-- Inline CSS
-```css
-<p style="color: red;">Teks Merah</p>
-```
-
-- Internal CSS
-```css
-<head>
-  <style>
-    p {
-      color: blue;
-    }
-  </style>
-</head>
-```
-
-- External CSS
-```css
 <link rel="stylesheet" href="style.css">
 ```
 
+---
 
+## 🅱️ Apa itu Bootstrap?
+
+Bootstrap adalah **framework CSS** yang menyediakan **class siap pakai** untuk desain web yang rapi dan responsif.
+
+---
+
+## 📦 Menggunakan Bootstrap (CDN)
+
+```html
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+```
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+```
+
+---
+
+## 🧱 Konsep Dasar Bootstrap
+
+### Container
+
+```html
+<div class="container">Konten</div>
+```
+
+### Grid
+
+```html
+<div class="row">
+  <div class="col-6">Kiri</div>
+  <div class="col-6">Kanan</div>
+</div>
+```
+
+---
+
+## 🧩 Komponen Bootstrap
+
+### Button
+
+```html
+<button class="btn btn-primary">Kirim</button>
+```
+
+### Card
+
+```html
+<div class="card">
+  <div class="card-body">Isi Card</div>
+</div>
+```
+
+### Navbar
+
+```html
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">Portfolio</a>
+</nav>
+```
+
+### Form
+
+```html
+<input class="form-control" placeholder="Nama">
+```
+
+---
+
+## 🔁 Konsep Multi Halaman
+
+Struktur:
+
+```
+index.html
+contact.html
+```
+
+```html
+<a href="contact.html">Hubungi Saya</a>
+```
+
+---
+
+## 🧪 Studi Kasus Proyek Akhir
+
+### Halaman Profil
+
+* Foto
+* Nama
+* Deskripsi
+* Skill (Card)
+
+### Halaman Hubungi Saya
+
+* Google Maps
+* Form Kontak
+
+---
+
+## 🪄 Penutup
+
+Ekskul ini bertujuan membekali santri dengan:
+
+* Skill dasar pemrograman web
+* Etika kolaborasi GitHub
+* Portfolio digital yang bermanfaat
+
+> *Gunakan waktu untuk belajar hal yang bermanfaat dan bernilai ibadah.*
+
+---
+
+**Barakallahu fiikum** 🙏
