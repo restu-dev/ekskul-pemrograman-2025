@@ -28,7 +28,10 @@
   HTML & CSS Dasar 2
 
 * **Pertemuan 7 – 06 Februari 2026**
-  CSS & Bootstrap Dasar
+  CSS & Bootstrap Dasar : Pengenalan Boostrap
+
+* **Pertemuan 8 – 17 April 2026**
+  Bootstrap Dasar 2 : Layoting & Komponen
 
 ---
 
